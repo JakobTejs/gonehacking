@@ -54,7 +54,10 @@
             android:label="@string/title_activity_maanedelig_betaling" />
         <activity
             android:name=".MinRuteActivity"
-            android:label="@string/title_activity_min_rute"></activity>
+            android:label="@string/title_activity_min_rute" />
+        <activity
+            android:name=".nyhedActivity"
+            android:label="@string/title_activity_nyhed"></activity>
     </application>
 
 </manifest>
