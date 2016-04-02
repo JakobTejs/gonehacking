@@ -35,7 +35,7 @@ public class HomeActivity extends ActionBarActivity {
             return true;
         }
         if (id == R.id.action_frivillig) {
-            Intent myIntent = new Intent(this, Frivillig.class);
+            Intent myIntent = new Intent(this, FrivilligActivity.class);
             HomeActivity.this.startActivity(myIntent);
             return true;
         }
