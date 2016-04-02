@@ -8,15 +8,15 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.jakob.roedekors.DonerActivity"
-    android:background="#fdd3d3">
+    android:background="#ffffff">
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
         android:text="Doner med betalingskort"
         android:id="@+id/betalingskort"
         android:clickable="true"
-        android:background="#fd4343"
+        android:background="#ED1B2E"
         android:layout_below="@+id/engangsydelse"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="26dp"
@@ -24,35 +24,39 @@
         android:textStyle="bold" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
         android:text="Doner med Mobile Pay"
         android:id="@+id/mobilepaydoner"
-        android:background="#fd4343"
+        android:background="#ED1B2E"
         android:layout_below="@+id/betalingskort"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="29dp"
         android:textColor="#ffffff"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:clickable="true" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Månedlig bidrag"
-        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="62dp"
+        android:text="Månedligt bidrag"
+        android:id="@+id/maanedligbidrag"
         android:textSize="26dp"
         android:layout_above="@+id/engangsydelse"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="107dp"
-        android:background="#fd4343"
+        android:background="#ED1B2E"
         android:textColor="#ffffff"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:clickable="true"
+        android:elegantTextHeight="false"
+        android:enabled="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Engangs ydelse"
+        android:text="Engangsydelse"
         android:id="@+id/engangsydelse"
         android:textSize="21dp"
         android:layout_centerVertical="true"
@@ -61,15 +65,16 @@
         android:textStyle="bold" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
         android:text="Doner med Swipp"
         android:id="@+id/donerswipp"
-        android:background="#fd4343"
+        android:background="#ED1B2E"
         android:layout_marginTop="27dp"
         android:textColor="#ffffff"
         android:textStyle="bold"
         android:layout_below="@+id/mobilepaydoner"
         android:layout_centerHorizontal="true"
-        android:shadowColor="#000000" />
+        android:shadowColor="#000000"
+        android:clickable="true" />
 </RelativeLayout>
