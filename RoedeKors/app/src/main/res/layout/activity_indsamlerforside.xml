@@ -16,8 +16,73 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Du har indsamlet"
         android:id="@+id/textView11"
-        android:layout_marginStart="43dp"
         android:layout_marginTop="33dp"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0"
+        android:id="@+id/textView12"
+        android:layout_below="@+id/textView11"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:textSize="65dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Kr"
+        android:id="@+id/textView13"
+        android:layout_marginStart="33dp"
+        android:textSize="62dp"
+        android:layout_alignBottom="@+id/textView12"
+        android:layout_toEndOf="@+id/textView12" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="Min gruppe"
+        android:id="@+id/gruppeKnap"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_background"
+        android:textColor="#d2d2ce" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView14"
+        android:layout_alignTop="@+id/gruppeKnap"
+        android:layout_toEndOf="@+id/textView12" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="QR kode"
+        android:id="@+id/button"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/gruppeKnap"
+        android:layout_alignEnd="@+id/gruppeKnap"
+        android:background="@drawable/button_background"
+        android:textColor="#d2d2ce" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="Min Rute"
+        android:id="@+id/button2"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_background"
+        android:textColor="#d2d2ce" />
+
 </RelativeLayout>
