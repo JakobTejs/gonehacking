@@ -2,8 +2,24 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.jakob.roedekors.HomeActivity" >
-    <item android:id="@+id/action_settings"
-        android:title="@string/action_settings"
+    <item android:id="@+id/action_home"
+        android:title="@string/action_home"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_min_side"
+        android:title="@string/action_min_side"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_doner"
+        android:title="Doner"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_frivillig"
+        android:title="@string/action_frivillig"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_forstehjaelp"
+        android:title="@string/action_forstehjaelp"
         android:orderInCategory="100"
         app:showAsAction="never" />
 </menu>

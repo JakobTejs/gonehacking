@@ -1,5 +1,6 @@
 package com.example.jakob.roedekors;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
@@ -28,10 +29,16 @@ public class HomeActivity extends ActionBarActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_doner) {
+            Intent myIntent = new Intent(this, DonerActivity.class);
+            HomeActivity.this.startActivity(myIntent);
             return true;
         }
-
+        if (id == R.id.action_frivillig) {
+            Intent myIntent = new Intent(this, Frivillig.class);
+            HomeActivity.this.startActivity(myIntent);
+            return true;
+        }
         return super.onOptionsItemSelected(item);
     }
 }

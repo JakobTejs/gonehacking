@@ -1,4 +1,11 @@
 <resources>
-    <string name="app_name">RoedeKors</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">RødeKors</string>
+    <string name="action_home">Hjem</string>
+    <string name="action_min_side">Min Side</string>
+    <string name="action_doner">Doner</string>
+    <string name="action_indsamler">Indsamler</string>
+    <string name="action_frivillig">Frivillig</string>
+    <string name="action_forstehjaelp">Førstehjælp</string>
+    <string name="title_activity_doner">DonerActivity</string>
+    <string name="title_activity_frivillig">FrivilligActivity</string>
 </resources>
