@@ -16,10 +16,10 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Emilie Knudsen Brun"
         android:id="@+id/textView33"
-        android:layout_marginEnd="58dp"
-        android:layout_marginTop="84dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_marginStart="30dp"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_toEndOf="@+id/imageView3"
+        android:layout_marginBottom="17dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -27,9 +27,9 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Peter Lunding Jensen"
         android:id="@+id/textView34"
-        android:layout_marginTop="37dp"
-        android:layout_below="@+id/textView33"
-        android:layout_alignStart="@+id/textView33" />
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_alignStart="@+id/textView33"
+        android:layout_marginTop="19dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -37,9 +37,9 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Niklas Hjuler"
         android:id="@+id/textView35"
-        android:layout_below="@+id/textView34"
-        android:layout_alignStart="@+id/textView34"
-        android:layout_marginTop="35dp" />
+        android:layout_marginBottom="16dp"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_alignStart="@+id/textView34" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -47,7 +47,56 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Jakob Bæk Tejs Knudsen"
         android:id="@+id/textView36"
-        android:layout_marginTop="29dp"
-        android:layout_below="@+id/textView35"
-        android:layout_alignStart="@+id/textView35" />
+        android:layout_below="@+id/imageView4"
+        android:layout_alignStart="@+id/textView35"
+        android:layout_marginTop="48dp" />
+
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/niklas"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView4" />
+
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/peter"
+        android:id="@+id/imageView2"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="32dp" />
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/emilie"
+        android:id="@+id/imageView3"
+        android:layout_marginTop="46dp"
+        android:layout_below="@+id/textView37"
+        android:layout_alignParentStart="true" />
+    <ImageView
+        android:src="@drawable/jakob"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:scaleType="fitXY"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/imageView4"
+        android:layout_toStartOf="@+id/textView33"
+        android:layout_marginTop="29dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Formanden og de 3 bagmænd"
+        android:id="@+id/textView37"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="21dp"
+        android:textStyle="bold" />
 </RelativeLayout>

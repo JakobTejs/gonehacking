@@ -22,6 +22,15 @@ public class IndsamlerforsideActivity extends Activity {
                 startActivity(myIntent);
             }
         });
+
+        Button donerKnap = (Button) findViewById(R.id.gruppeKnap);
+        donerKnap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent(tmp, MinGruppeActivity.class);
+                startActivity(myIntent);
+            }
+        });
     }
 
 }

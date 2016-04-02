@@ -14,10 +14,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Indsamlet i alt af gruppen"
+        android:text="Indsamlet af gruppen"
         android:id="@+id/textView28"
         android:layout_marginTop="45dp"
-        android:textSize="30dp"
+        android:textSize="25dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:textStyle="bold" />
@@ -28,45 +28,58 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Kr"
         android:id="@+id/textView29"
-        android:layout_marginTop="42dp"
-        android:textSize="40dp"
+        android:layout_marginTop="49dp"
+        android:textSize="41dp"
         android:layout_below="@+id/textView28"
-        android:layout_toEndOf="@+id/textView30" />
+        android:layout_toEndOf="@+id/button" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="10.000"
+        android:text="7.351,16"
         android:id="@+id/textView30"
-        android:textSize="40dp"
-        android:layout_alignTop="@+id/textView29"
+        android:textSize="45dp"
+        android:layout_alignBottom="@+id/textView29"
         android:layout_centerHorizontal="true" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="220dp"
         android:layout_height="wrap_content"
-        android:text="Min Gruppe"
+        android:text="Se Gruppe"
         android:id="@+id/button"
-        android:layout_marginTop="86dp"
+        android:layout_marginTop="59dp"
         android:background="@drawable/button_background"
         android:textColor="#d2d2ce"
         android:textSize="20dp"
         android:layout_below="@+id/textView29"
-        android:layout_alignStart="@+id/button6" />
+        android:layout_centerHorizontal="true" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="220dp"
         android:layout_height="wrap_content"
-        android:text="Tilmeld gruppe"
+        android:text="Indmelding i gruppe"
         android:id="@+id/button6"
-        android:layout_below="@+id/button"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="49dp"
         android:textColor="#d2d2ce"
         android:background="@drawable/button_background"
-        android:textSize="18dp" />
+        android:textSize="18dp"
+        android:layout_below="@+id/button7"
+        android:layout_alignStart="@+id/button7"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Præmier"
+        android:id="@+id/button7"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/button_background"
+        android:textColor="#d2d2ce"
+        android:textSize="20dp"
+        android:layout_below="@+id/button"
+        android:layout_toStartOf="@+id/textView29" />
 
 </RelativeLayout>
