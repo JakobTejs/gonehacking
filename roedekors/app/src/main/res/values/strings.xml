@@ -10,4 +10,5 @@
     <string name="title_activity_frivillig">FrivilligActivity</string>
     <string name="title_activity_min_side">MinSideActivity</string>
     <string name="title_activity_foestehjaelp">FoestehjaelpActivity</string>
+    <string name="title_activity_donationbetalingskort">DonationbetalingskortActivity</string>
 </resources>
