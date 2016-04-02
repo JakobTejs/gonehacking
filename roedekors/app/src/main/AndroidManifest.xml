@@ -30,5 +30,4 @@
             android:name=".ForstehjaelpActivity"
             android:label="@string/title_activity_foestehjaelp"></activity>
     </application>
-
 </manifest>
