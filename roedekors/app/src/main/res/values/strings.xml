@@ -1,14 +1,14 @@
 <resources>
-    <string name="app_name">RødeKors</string>
+    <string name="app_name">Røde Kors</string>
     <string name="action_home">Hjem</string>
     <string name="action_min_side">Min Side</string>
     <string name="action_doner">Doner</string>
     <string name="action_indsamler">Indsamler</string>
     <string name="action_frivillig">Frivillig</string>
     <string name="action_forstehjaelp">Førstehjælp</string>
-    <string name="title_activity_doner">DonerActivity</string>
-    <string name="title_activity_frivillig">FrivilligActivity</string>
-    <string name="title_activity_min_side">MinSideActivity</string>
-    <string name="title_activity_foestehjaelp">FoestehjaelpActivity</string>
-    <string name="title_activity_donationbetalingskort">DonationbetalingskortActivity</string>
+    <string name="title_activity_doner">Doner</string>
+    <string name="title_activity_frivillig">Frivillig</string>
+    <string name="title_activity_min_side">Min side</string>
+    <string name="title_activity_foestehjaelp">Føstehjælp</string>
+    <string name="title_activity_donationbetalingskort">Donation med betalingskort</string>
 </resources>
