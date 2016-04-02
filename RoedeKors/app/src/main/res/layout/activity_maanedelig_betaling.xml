@@ -31,11 +31,36 @@
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="Bekræft betaling"
         android:id="@+id/button4"
+        android:textColor="#d2d2ce"
+        android:background="@drawable/button_background"
         android:layout_below="@+id/checkBox"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="29dp" />
+        android:layout_marginTop="23dp" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="Ophæv min betaling"
+        android:id="@+id/button5"
+        android:textColor="#d2d2ce"
+        android:background="@drawable/button_background"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Kr"
+        android:id="@+id/textView27"
+        android:layout_below="@+id/textView26"
+        android:layout_alignEnd="@+id/textView26"
+        android:layout_marginTop="46dp"
+        android:textSize="45dp" />
+
 </RelativeLayout>

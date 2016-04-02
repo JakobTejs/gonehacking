@@ -44,4 +44,5 @@
     <string name="socialtfamilier"><a href="https://www.rodekors.dk/bliv-frivillig/socialt-udsatte-familier">Socialt udsatte famillier</a></string>
     <string name="ledelse"><a href="https://www.rodekors.dk/bliv-frivillig/ledelse">Ledelse</a></string>
     <string name="familiecamp"><a href="https://www.rodekors.dk/bliv-frivillig/familiecamp">Familiecamp</a></string>
+    <string name="title_activity_nyhed">nyhedActivity</string>
 </resources>
