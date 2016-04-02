@@ -11,4 +11,5 @@
     <string name="title_activity_min_side">MinSideActivity</string>
     <string name="title_activity_foestehjaelp">FoestehjaelpActivity</string>
     <string name="title_activity_donationbetalingskort">DonationbetalingskortActivity</string>
+    <string name="title_activity_log_ind">LogIndActivity</string>
 </resources>

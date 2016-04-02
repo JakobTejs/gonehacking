@@ -31,7 +31,10 @@
             android:label="@string/title_activity_foestehjaelp" />
         <activity
             android:name=".DonationbetalingskortActivity"
-            android:label="@string/title_activity_donationbetalingskort"></activity>
+            android:label="@string/title_activity_donationbetalingskort" />
+        <activity
+            android:name=".LogIndActivity"
+            android:label="@string/title_activity_log_ind"></activity>
     </application>
 
 </manifest>
