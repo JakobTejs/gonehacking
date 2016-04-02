@@ -32,4 +32,16 @@
     <string name="title_activity_oensk_rute">OenskRuteActivity</string>
     <string name="title_activity_maanedelig_betaling">MaanedeligBetalingActivity</string>
     <string name="title_activity_min_rute">MinRuteActivity</string>
+    <!-- hjemmesider -->
+    <string name="asylansoeger"><a href="https://www.rodekors.dk/bliv-frivillig/asylansoegere">Asylansøgere</a></string>
+    <string name="butik"><a href="https://www.rodekors.dk/bliv-frivillig/butikker">Frivillig i Røde Kors Butik</a></string>
+    <string name="bornogunge"><a href="https://www.rodekors.dk/bliv-frivillig/boern-og-unge">Hjælp børn og unge</a></string>
+    <string name="flygtninge"><a href="https://www.rodekors.dk/bliv-frivillig/flygtninge-og-indvandrere">Flygtninge og indvandrere</a></string>
+    <string name="foerstehjaelp"><a href="https://www.rodekors.dk/bliv-frivillig/foerstehjaelp">Førstehjælp</a></string>
+    <string name="undervisning"><a href="https://www.rodekors.dk/bliv-frivillig/undervisning">Undervisning af frivillige</a></string>
+    <string name="samarit"><a href="https://www.rodekors.dk/bliv-frivillig/samaritter">Bliv samarit eller medic</a></string>
+    <string name="besoegsven"><a href="https://www.rodekors.dk/bliv-frivillig/hjaelp-ensomme">Bliv besøgsven</a></string>
+    <string name="socialtfamilier"><a href="https://www.rodekors.dk/bliv-frivillig/socialt-udsatte-familier">Socialt udsatte famillier</a></string>
+    <string name="ledelse"><a href="https://www.rodekors.dk/bliv-frivillig/ledelse">Ledelse</a></string>
+    <string name="familiecamp"><a href="https://www.rodekors.dk/bliv-frivillig/familiecamp">Familiecamp</a></string>
 </resources>

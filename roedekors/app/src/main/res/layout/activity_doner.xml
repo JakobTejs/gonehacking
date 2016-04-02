@@ -19,12 +19,11 @@
         android:id="@+id/betalingskort"
         android:clickable="true"
         android:background="@drawable/button_background"
-        android:layout_below="@+id/engangsydelse"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="26dp"
         android:textColor="#d2d2ce"
         android:textStyle="bold"
-        android:nestedScrollingEnabled="false" /> 
+        android:nestedScrollingEnabled="false"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/mobilepaydoner" />
         android:elevation="2dp" / > 
 
     <Button
@@ -35,7 +34,7 @@
         android:background="@drawable/button_background"
         android:layout_below="@+id/betalingskort"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="29dp"
+        android:layout_marginTop="30dp"
         android:textColor="#d2d2ce"
         android:textStyle="bold"
         android:clickable="true"
@@ -47,13 +46,13 @@
         android:text="Månedligt bidrag"
         android:id="@+id/maanedligbidrag"
         android:textSize="26dp"
-        android:layout_above="@+id/engangsydelse"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="107dp"
         android:background="@drawable/button_background"
         android:textColor="#d2d2ce"
         android:textStyle="bold"
-        android:elevation="2dp" />
+        android:elevation="2dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -62,9 +61,10 @@
         android:text="Engangsydelse"
         android:id="@+id/engangsydelse"
         android:textSize="21dp"
-        android:layout_centerVertical="true"
+        android:textStyle="bold"
+        android:layout_above="@+id/betalingskort"
         android:layout_centerHorizontal="true"
-        android:textStyle="bold" />
+        android:layout_marginBottom="30dp" />
 
     <Button
         android:layout_width="220dp"
@@ -72,10 +72,23 @@
         android:text="Doner med Swipp"
         android:id="@+id/donerswipp"
         android:background="@drawable/button_background"
-        android:layout_marginTop="27dp"
+        android:layout_marginTop="30dp"
         android:textColor="#d2d2ce"
         android:textStyle="bold"
         android:layout_below="@+id/mobilepaydoner"
         android:layout_centerHorizontal="true"
         android:elevation="2dp" />
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:text="Doner som gave"
+        android:id="@+id/button3"
+        android:background="@drawable/button_background"
+        android:textColor="#d2d2ce"
+        android:textStyle="bold"
+        android:elevation="2dp"
+        android:layout_below="@+id/donerswipp"
+        android:layout_alignStart="@+id/donerswipp"
+        android:layout_marginTop="30dp" />
 </RelativeLayout>
