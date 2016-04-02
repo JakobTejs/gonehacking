@@ -31,7 +31,7 @@ public class HomeActivity extends MainActivity {
                 long[] test =  {0, 300, 200, 300};
                 NotificationCompat.Builder mBuilder =
                         new NotificationCompat.Builder(tmp)
-                                .setSmallIcon(R.drawable.rodekorsqrpeter)
+                                .setSmallIcon(R.mipmap.ic_launcher)
                                 .setContentTitle("Noget med Syrien")
                                 .setContentText("Det vrimler med mohammedanere!!")
                                 .setAutoCancel(true)
