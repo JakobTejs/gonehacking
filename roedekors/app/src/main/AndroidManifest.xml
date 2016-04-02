@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.jakob.roedekors">
 
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -31,7 +36,25 @@
             android:label="@string/title_activity_foestehjaelp" />
         <activity
             android:name=".DonationbetalingskortActivity"
-            android:label="@string/title_activity_donationbetalingskort"></activity>
+            android:label="@string/title_activity_donationbetalingskort" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".QRkodeActivity"
+            android:label="@string/title_activity_qrkode" />
+        <activity
+            android:name=".IndsamlerforsideActivity"
+            android:label="@string/title_activity_indsamlerforside" />
+        <activity
+            android:name=".DinRuteActivity"
+            android:label="@string/title_activity_din_rute" />
+        <activity
+            android:name=".OenskRuteActivity"
+            android:label="@string/title_activity_oensk_rute" />
+        <activity
+            android:name=".MaanedeligBetalingActivity"
+            android:label="@string/title_activity_maanedelig_betaling"></activity>
     </application>
 
 </manifest>
