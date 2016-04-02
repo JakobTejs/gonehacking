@@ -3,7 +3,8 @@ package com.example.jakob.roedekors;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 
-public class DonerActivity extends ActionBarActivity {
+public class DonerActivity extends MainActivity {
+    int MYID = R.id.action_doner;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

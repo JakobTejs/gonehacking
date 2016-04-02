@@ -8,4 +8,6 @@
     <string name="action_forstehjaelp">Førstehjælp</string>
     <string name="title_activity_doner">DonerActivity</string>
     <string name="title_activity_frivillig">FrivilligActivity</string>
+    <string name="title_activity_min_side">MinSideActivity</string>
+    <string name="title_activity_foestehjaelp">FoestehjaelpActivity</string>
 </resources>
