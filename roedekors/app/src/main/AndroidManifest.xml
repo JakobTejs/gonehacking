@@ -19,11 +19,15 @@
         </activity>
         <activity
             android:name=".DonerActivity"
-            android:label="@string/title_activity_doner">
-        </activity>
+            android:label="@string/title_activity_doner" />
+        <activity
+            android:name=".MinSideActivity"
+            android:label="@string/title_activity_min_side" />
         <activity
             android:name=".FrivilligActivity"
-            android:label="@string/title_activity_frivillig">
-        </activity>
+            android:label="@string/title_activity_frivillig" />
+        <activity
+            android:name=".ForstehjaelpActivity"
+            android:label="@string/title_activity_foestehjaelp"></activity>
     </application>
 </manifest>
