@@ -31,4 +31,5 @@
     <string name="title_activity_din_rute">DinRuteActivity</string>
     <string name="title_activity_oensk_rute">OenskRuteActivity</string>
     <string name="title_activity_maanedelig_betaling">MaanedeligBetalingActivity</string>
+    <string name="title_activity_min_rute">MinRuteActivity</string>
 </resources>

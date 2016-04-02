@@ -47,14 +47,14 @@
             android:name=".IndsamlerforsideActivity"
             android:label="@string/title_activity_indsamlerforside" />
         <activity
-            android:name=".DinRuteActivity"
-            android:label="@string/title_activity_din_rute" />
-        <activity
             android:name=".OenskRuteActivity"
             android:label="@string/title_activity_oensk_rute" />
         <activity
             android:name=".MaanedeligBetalingActivity"
-            android:label="@string/title_activity_maanedelig_betaling"></activity>
+            android:label="@string/title_activity_maanedelig_betaling" />
+        <activity
+            android:name=".MinRuteActivity"
+            android:label="@string/title_activity_min_rute"></activity>
     </application>
 
 </manifest>

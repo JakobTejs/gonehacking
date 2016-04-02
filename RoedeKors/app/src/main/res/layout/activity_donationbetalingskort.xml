@@ -16,7 +16,7 @@
         android:id="@+id/donationsknap"
         android:layout_marginBottom="111dp"
         android:background="@drawable/button_background"
-        android:textColor="#ffffff"
+        android:textColor="#d2d2ce"
         android:textSize="18dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
