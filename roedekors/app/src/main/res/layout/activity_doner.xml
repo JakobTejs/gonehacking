@@ -7,18 +7,69 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.jakob.roedekors.DonerActivity">
+    tools:context="com.example.jakob.roedekors.DonerActivity"
+    android:background="#fdd3d3">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doner med betalingskort"
+        android:id="@+id/betalingskort"
+        android:clickable="true"
+        android:background="#fd4343"
+        android:layout_below="@+id/engangsydelse"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doner med Mobile Pay"
+        android:id="@+id/mobilepaydoner"
+        android:background="#fd4343"
+        android:layout_below="@+id/betalingskort"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Månedlig bidrag"
+        android:id="@+id/button"
+        android:textSize="26dp"
+        android:layout_above="@+id/engangsydelse"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="107dp"
+        android:background="#fd4343"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Doner"
-        android:id="@+id/textView4"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="54dp"
-        android:layout_marginStart="54dp"
-        android:layout_marginTop="193dp" />
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Engangs ydelse"
+        android:id="@+id/engangsydelse"
+        android:textSize="21dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doner med Swipp"
+        android:id="@+id/donerswipp"
+        android:background="#fd4343"
+        android:layout_marginTop="27dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_below="@+id/mobilepaydoner"
+        android:layout_centerHorizontal="true"
+        android:shadowColor="#000000" />
 </RelativeLayout>
