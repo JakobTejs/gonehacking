@@ -1,4 +1,4 @@
-package com.example.peter.roedekors;
+package com.example.jakob.roedekors;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
