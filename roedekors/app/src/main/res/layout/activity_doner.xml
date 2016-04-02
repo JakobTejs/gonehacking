@@ -64,7 +64,6 @@
         android:textSize="21dp"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:textColor="@color/text_primary"
         android:textStyle="bold" />
 
     <Button
