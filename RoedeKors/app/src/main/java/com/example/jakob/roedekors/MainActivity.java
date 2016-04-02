@@ -43,8 +43,13 @@ public class MainActivity extends Activity {
             Intent myIntent = new Intent(this, MinSideActivity.class);
             this.startActivity(myIntent);
             return true;
-        } else if (id == R.id.action_forstehjaelp) {
-            Intent myIntent = new Intent(this, ForstehjaelpActivity.class);
+        } else if (id == R.id.action_indsamler){
+            Intent myIntent = new Intent(this, IndsamlerforsideActivity.class);
+            this.startActivity(myIntent);
+            return true;
+
+        } else if (id == R.id.action_butikker) {
+            Intent myIntent = new Intent(this, butikkerActivity.class);
             this.startActivity(myIntent);
             return true;
         }

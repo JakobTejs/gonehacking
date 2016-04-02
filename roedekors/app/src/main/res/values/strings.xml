@@ -4,6 +4,7 @@
     <string name="action_min_side">Min Side</string>
     <string name="action_doner">Doner</string>
     <string name="action_indsamler">Indsamler</string>
+    <string name="action_butikker">Butikker</string>
     <string name="action_frivillig">Frivillig</string>
     <string name="action_forstehjaelp">Førstehjælp</string>
     <string name="title_activity_doner">Doner</string>
@@ -44,5 +45,9 @@
     <string name="socialtfamilier"><a href="https://www.rodekors.dk/bliv-frivillig/socialt-udsatte-familier">Socialt udsatte famillier</a></string>
     <string name="ledelse"><a href="https://www.rodekors.dk/bliv-frivillig/ledelse">Ledelse</a></string>
     <string name="familiecamp"><a href="https://www.rodekors.dk/bliv-frivillig/familiecamp">Familiecamp</a></string>
+    <string name="del"><a href="https://www.facebook.com/roedekors/?fref=ts">Del</a></string>
     <string name="title_activity_nyhed">nyhedActivity</string>
+    <string name="title_activity_butikker">butikkerActivity</string>
+    <string name="title_activity_min_gruppe">MinGruppeActivity</string>
+    <string name="title_activity_gruppen">gruppenActivity</string>
 </resources>
