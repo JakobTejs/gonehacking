@@ -1,6 +1,5 @@
 package com.example.jakob.roedekors;
 
-import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.app.TaskStackBuilder;
@@ -8,9 +7,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.NotificationCompat;
-import android.support.v7.app.ActionBarActivity;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
@@ -32,11 +28,11 @@ public class HomeActivity extends MainActivity {
                 NotificationCompat.Builder mBuilder =
                         new NotificationCompat.Builder(tmp)
                                 .setSmallIcon(R.mipmap.ic_launcher)
-                                .setContentTitle("Noget med Syrien")
-                                .setContentText("Det vrimler med mohammedanere!!")
+                                .setContentTitle("Jordskælv")
+                                .setContentText("Ødelæggende jordskælv har ramt syddansk-mini-polynesien")
                                 .setAutoCancel(true)
                                 .setVibrate(test)
-                                .setTicker("Noget med Syrien");
+                                .setTicker("Jordskælv");
 // Creates an explicit intent for an Activity in your app
                 Intent resultIntent = new Intent(tmp, nyhedActivity.class);
 
