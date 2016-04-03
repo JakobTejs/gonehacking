@@ -7,15 +7,162 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.jakob.roedekors.FrivilligActivity">
+    tools:context="com.example.jakob.roedekors.FrivilligActivity"
+    android:background="#ffffff">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Frivillig"
+        android:text="@string/asylansoeger"
         android:id="@+id/textView3"
+        android:textSize="26dp"
+        android:background="#ffffff"
+        android:layout_alignWithParentIfMissing="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp" />
+        android:layout_margin="6dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/butik"
+        android:id="@+id/textView16"
+        android:textSize="26dp"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="6dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/bornogunge"
+        android:id="@+id/textView17"
+        android:textSize="26dp"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_below="@+id/textView16"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="6dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/flygtninge"
+        android:id="@+id/textView18"
+        android:textSize="26dp"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_below="@+id/textView17"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="6dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/foerstehjaelp"
+        android:id="@+id/textView19"
+        android:textSize="26dp"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_below="@+id/textView18"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="6dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/samarit"
+        android:id="@+id/textView20"
+        android:textSize="26dp"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_below="@+id/textView19"
+        android:layout_alignEnd="@+id/textView16"
+        android:layout_margin="6dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/besoegsven"
+        android:id="@+id/textView21"
+        android:textSize="26dp"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_below="@+id/textView20"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="6dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/undervisning"
+        android:id="@+id/textView25"
+        android:textSize="26dp"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_below="@+id/textView24"
+        android:layout_alignEnd="@+id/textView16"
+        android:layout_margin="6dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/socialtfamilier"
+        android:id="@+id/textView22"
+        android:textSize="26dp"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_below="@+id/textView21"
+        android:layout_alignStart="@+id/textView25"
+        android:layout_margin="6dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/ledelse"
+        android:id="@+id/textView23"
+        android:textSize="26dp"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_below="@+id/textView22"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="6dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/familiecamp"
+        android:id="@+id/textView24"
+        android:textSize="26dp"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_below="@+id/textView23"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_margin="6dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+
 </RelativeLayout>
