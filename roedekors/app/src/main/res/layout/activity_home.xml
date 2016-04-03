@@ -9,25 +9,27 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.example.jakob.roedekors.HomeActivity"
-    android:id="@+id/HJEM">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="HJEM"
-        android:id="@+id/textView2"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+    android:id="@+id/HJEM"
+    android:background="#ffffff">
 
     <Button
+        android:layout_width="330dp"
+        android:layout_height="25dp"
+        android:text="Push Notifikation"
+        android:id="@+id/notificationButton"
+        android:background="@drawable/button_background"
+        android:clickable="false"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/notificationButton"
-        android:layout_below="@+id/textView2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="44dp" />
+        android:id="@+id/imageView5"
+        android:src="@drawable/smidetoejet"
+        android:layout_above="@+id/notificationButton"
+        android:layout_alignParentEnd="true" />
 
 
 </RelativeLayout>
