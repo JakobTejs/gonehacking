@@ -28,7 +28,7 @@ public class HomeActivity extends MainActivity {
         notificationButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                long[] test =  {0, 300, 200, 300};
+                long[] test = {0, 300, 200, 300};
                 NotificationCompat.Builder mBuilder =
                         new NotificationCompat.Builder(tmp)
                                 .setSmallIcon(R.mipmap.ic_launcher)
@@ -36,8 +36,7 @@ public class HomeActivity extends MainActivity {
                                 .setContentText("Det vrimler med mohammedanere!!")
                                 .setAutoCancel(true)
                                 .setVibrate(test)
-                                .setTicker("Noget med Syrien")
-                        ;
+                                .setTicker("Noget med Syrien");
 // Creates an explicit intent for an Activity in your app
                 Intent resultIntent = new Intent(tmp, nyhedActivity.class);
 
@@ -61,6 +60,14 @@ public class HomeActivity extends MainActivity {
 // mId allows you to update the notification later on.
 
                 mNotificationManager.notify(1, mBuilder.build());
+            }
+        });
+        Button butikkerKnap = (Button) findViewById(R.id.button8);
+        butikkerKnap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent(tmp, gruppenActivity.class);
+                startActivity(myIntent);
             }
         });
     }
