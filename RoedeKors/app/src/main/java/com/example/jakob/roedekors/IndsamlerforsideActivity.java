@@ -35,7 +35,7 @@ public class IndsamlerforsideActivity extends MainActivity {
         minRute.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(tmp, RuteActivity.class);
+                Intent myIntent = new Intent(tmp, MinRuteActivity.class);
                 startActivity(myIntent);
             }
         });

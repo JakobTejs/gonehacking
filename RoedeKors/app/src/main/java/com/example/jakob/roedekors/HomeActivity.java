@@ -66,7 +66,7 @@ public class HomeActivity extends MainActivity {
         butikkerKnap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(tmp, gruppenActivity.class);
+                Intent myIntent = new Intent(tmp, butikkerActivity.class);
                 startActivity(myIntent);
             }
         });
