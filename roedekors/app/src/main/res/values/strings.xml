@@ -27,12 +27,12 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
-    <string name="title_activity_qrkode">QRkodeActivity</string>
-    <string name="title_activity_indsamlerforside">IndsamlerforsideActivity</string>
-    <string name="title_activity_din_rute">DinRuteActivity</string>
-    <string name="title_activity_oensk_rute">OenskRuteActivity</string>
-    <string name="title_activity_maanedelig_betaling">MaanedeligBetalingActivity</string>
-    <string name="title_activity_min_rute">MinRuteActivity</string>
+    <string name="title_activity_qrkode">QR Kode - Registrering </string>
+    <string name="title_activity_indsamlerforside">Indsamling</string>
+    <string name="title_activity_din_rute">Min rute</string>
+    <string name="title_activity_oensk_rute">Ønsk rute</string>
+    <string name="title_activity_maanedelig_betaling">Månedlig betaling</string>
+    <string name="title_activity_min_rute">Min rute</string>
     <!-- hjemmesider -->
     <string name="asylansoeger"><a href="https://www.rodekors.dk/bliv-frivillig/asylansoegere">Asylansøgere</a></string>
     <string name="butik"><a href="https://www.rodekors.dk/bliv-frivillig/butikker">Frivillig i Røde Kors Butik</a></string>
@@ -46,9 +46,9 @@
     <string name="ledelse"><a href="https://www.rodekors.dk/bliv-frivillig/ledelse">Ledelse</a></string>
     <string name="familiecamp"><a href="https://www.rodekors.dk/bliv-frivillig/familiecamp">Familiecamp</a></string>
     <string name="del"><a href="https://www.facebook.com/roedekors/?fref=ts">Del</a></string>
-    <string name="title_activity_nyhed">nyhedActivity</string>
-    <string name="title_activity_butikker">butikkerActivity</string>
-    <string name="title_activity_min_gruppe">MinGruppeActivity</string>
-    <string name="title_activity_gruppen">gruppenActivity</string>
-    <string name="title_activity_rute">Map</string>
+    <string name="title_activity_nyhed">Nyhed</string>
+    <string name="title_activity_butikker">Butikker</string>
+    <string name="title_activity_min_gruppe">Min gruppe</string>
+    <string name="title_activity_gruppen">Gruppen</string>
+    <string name="title_activity_rute">Rute</string>
 </resources>
