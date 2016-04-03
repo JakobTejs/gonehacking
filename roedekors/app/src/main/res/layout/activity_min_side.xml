@@ -17,7 +17,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Dine donationer til dags dato:"
         android:id="@+id/textView"
-        android:layout_marginTop="26dp"
+        android:layout_marginTop="10dp"
         android:layout_below="@+id/textView10"
         android:layout_toEndOf="@+id/textView10" />
 
@@ -37,7 +37,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Børn har fået mad i en måned"
         android:id="@+id/textView5"
-        android:layout_marginTop="47dp"
+        android:layout_marginTop="25dp"
         android:layout_below="@+id/textView4"
         android:layout_alignEnd="@+id/textView4"
         android:layout_alignStart="@+id/textView6" />

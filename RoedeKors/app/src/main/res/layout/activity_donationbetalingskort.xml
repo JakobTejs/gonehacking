@@ -29,7 +29,8 @@
         android:layout_alignStart="@+id/donationsknap"
         android:layout_marginTop="54dp"
         android:layout_alignEnd="@+id/donationsknap"
-        android:max="1500" />
+        android:max="1500"
+        android:indeterminate="false" />
 
     <TextView
         android:layout_width="wrap_content"
