@@ -50,4 +50,5 @@
     <string name="title_activity_butikker">butikkerActivity</string>
     <string name="title_activity_min_gruppe">MinGruppeActivity</string>
     <string name="title_activity_gruppen">gruppenActivity</string>
+    <string name="title_activity_rute">Map</string>
 </resources>
