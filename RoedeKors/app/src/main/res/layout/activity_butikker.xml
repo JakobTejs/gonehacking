@@ -9,4 +9,11 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.jakob.roedekors.butikkerActivity">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView6"
+        android:layout_centerVertical="true"
+        android:src="@drawable/butikker"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

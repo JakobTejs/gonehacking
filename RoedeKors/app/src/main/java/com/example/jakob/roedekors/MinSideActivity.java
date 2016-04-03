@@ -2,6 +2,7 @@ package com.example.jakob.roedekors;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.text.method.LinkMovementMethod;
 import android.widget.TextView;
 
 public class MinSideActivity extends MainActivity {
@@ -19,6 +20,8 @@ public class MinSideActivity extends MainActivity {
         TextView donationBoern = (TextView) findViewById(R.id.donationBoern);
         TextView donationMyg = (TextView) findViewById(R.id.donationMyg);
         TextView donationBarsel = (TextView) findViewById(R.id.donationBarsel);
+        TextView textView =(TextView)findViewById(R.id.textView10);
+        textView.setMovementMethod(LinkMovementMethod.getInstance());
 
         totalDonation.setText(Integer.toString(donation));
         donationFamilie.setText(Integer.toString(donation / 430));
@@ -26,5 +29,4 @@ public class MinSideActivity extends MainActivity {
         donationMyg.setText(Integer.toString(donation / 50));
         donationBarsel.setText(Integer.toString(donation / 100));
     }
-
 }
