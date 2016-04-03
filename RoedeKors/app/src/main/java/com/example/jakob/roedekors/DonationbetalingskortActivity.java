@@ -5,7 +5,7 @@ import android.app.Activity;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
-public class DonationbetalingskortActivity extends Activity {
+public class DonationbetalingskortActivity extends MainActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

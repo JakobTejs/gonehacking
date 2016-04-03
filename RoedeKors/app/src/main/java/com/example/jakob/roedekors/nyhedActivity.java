@@ -6,7 +6,7 @@ import android.app.Activity;
 import android.view.View;
 import android.widget.Button;
 
-public class nyhedActivity extends Activity {
+public class nyhedActivity extends MainActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

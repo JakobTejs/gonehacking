@@ -3,7 +3,7 @@ package com.example.jakob.roedekors;
 import android.os.Bundle;
 import android.app.Activity;
 
-public class butikkerActivity extends Activity {
+public class butikkerActivity extends MainActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

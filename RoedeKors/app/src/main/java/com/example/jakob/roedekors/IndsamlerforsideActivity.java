@@ -6,7 +6,7 @@ import android.app.Activity;
 import android.view.View;
 import android.widget.Button;
 
-public class IndsamlerforsideActivity extends Activity {
+public class IndsamlerforsideActivity extends MainActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,7 +35,7 @@ public class IndsamlerforsideActivity extends Activity {
         minRute.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(tmp, MinRuteActivity.class);
+                Intent myIntent = new Intent(tmp, RuteActivity.class);
                 startActivity(myIntent);
             }
         });
