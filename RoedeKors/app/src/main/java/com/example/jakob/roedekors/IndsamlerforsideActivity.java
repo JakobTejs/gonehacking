@@ -31,6 +31,14 @@ public class IndsamlerforsideActivity extends Activity {
                 startActivity(myIntent);
             }
         });
+        Button minRute = (Button) findViewById(R.id.button2);
+        minRute.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent(tmp, MinRuteActivity.class);
+                startActivity(myIntent);
+            }
+        });
     }
 
 }

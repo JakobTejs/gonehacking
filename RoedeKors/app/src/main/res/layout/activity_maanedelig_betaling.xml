@@ -58,9 +58,19 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Kr"
         android:id="@+id/textView27"
+        android:layout_marginTop="55dp"
+        android:textSize="45dp"
         android:layout_below="@+id/textView26"
-        android:layout_alignEnd="@+id/textView26"
-        android:layout_marginTop="46dp"
-        android:textSize="45dp" />
+        android:layout_alignEnd="@+id/textView26" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_alignBaseline="@+id/textView27"
+        android:layout_alignBottom="@+id/textView27"
+        android:layout_alignEnd="@+id/checkBox" />
 
 </RelativeLayout>
