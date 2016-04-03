@@ -39,7 +39,7 @@ public class HomeActivity extends MainActivity {
                                 .setTicker("Noget med Syrien")
                         ;
 // Creates an explicit intent for an Activity in your app
-                Intent resultIntent = new Intent(tmp, DonerActivity.class);
+                Intent resultIntent = new Intent(tmp, nyhedActivity.class);
 
 // The stack builder object will contain an artificial back stack for the
 // started Activity.
@@ -47,7 +47,7 @@ public class HomeActivity extends MainActivity {
 // your application to the Home screen.
                 TaskStackBuilder stackBuilder = TaskStackBuilder.create(tmp);
 // Adds the back stack for the Intent (but not the Intent itself)
-                stackBuilder.addParentStack(DonerActivity.class);
+                stackBuilder.addParentStack(nyhedActivity.class);
 // Adds the Intent that starts the Activity to the top of the stack
                 stackBuilder.addNextIntent(resultIntent);
                 PendingIntent resultPendingIntent =
