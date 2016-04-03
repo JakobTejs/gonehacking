@@ -32,9 +32,6 @@
             android:name=".FrivilligActivity"
             android:label="@string/title_activity_frivillig" />
         <activity
-            android:name=".ForstehjaelpActivity"
-            android:label="@string/title_activity_foestehjaelp" />
-        <activity
             android:name=".DonationbetalingskortActivity"
             android:label="@string/title_activity_donationbetalingskort" />
         <activity
@@ -57,7 +54,16 @@
             android:label="@string/title_activity_min_rute" />
         <activity
             android:name=".nyhedActivity"
-            android:label="@string/title_activity_nyhed"></activity>
+            android:label="@string/title_activity_nyhed" />
+        <activity
+            android:name=".butikkerActivity"
+            android:label="@string/title_activity_butikker" />
+        <activity
+            android:name=".MinGruppeActivity"
+            android:label="@string/title_activity_min_gruppe" />
+        <activity
+            android:name=".gruppenActivity"
+            android:label="@string/title_activity_gruppen"></activity>
     </application>
 
 </manifest>

@@ -18,8 +18,12 @@
         android:title="@string/action_frivillig"
         android:orderInCategory="100"
         app:showAsAction="never" />
-    <item android:id="@+id/action_forstehjaelp"
-        android:title="@string/action_forstehjaelp"
+    <item android:id="@+id/action_indsamler"
+        android:title="@string/action_indsamler"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_butikker"
+        android:title="@string/action_butikker"
         android:orderInCategory="100"
         app:showAsAction="never" />
 </menu>

@@ -26,10 +26,9 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="0"
         android:id="@+id/textView12"
+        android:textSize="65dp"
         android:layout_below="@+id/textView11"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="32dp"
-        android:textSize="65dp" />
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -37,10 +36,10 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Kr"
         android:id="@+id/textView13"
-        android:layout_marginStart="33dp"
-        android:textSize="62dp"
+        android:layout_marginStart="19dp"
+        android:textSize="58dp"
         android:layout_alignBottom="@+id/textView12"
-        android:layout_toEndOf="@+id/textView12" />
+        android:layout_toEndOf="@+id/textView14" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -48,12 +47,13 @@
         android:layout_height="wrap_content"
         android:text="Min gruppe"
         android:id="@+id/gruppeKnap"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
         android:background="@drawable/button_background"
         android:textSize="20dp"
         android:textStyle="bold"
-        android:textColor="#d2d2ce" />
+        android:textColor="#d2d2ce"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/textView32"
+        android:layout_alignStart="@+id/qrbutton" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -67,15 +67,15 @@
         style="?android:attr/buttonStyleSmall"
         android:layout_width="320dp"
         android:layout_height="wrap_content"
-        android:text="QR kode"
-        android:id="@+id/button"
-        android:layout_marginTop="21dp"
-        android:layout_below="@+id/gruppeKnap"
-        android:layout_alignEnd="@+id/gruppeKnap"
+        android:text="Registring - QR Kode"
+        android:id="@+id/qrbutton"
         android:background="@drawable/button_background"
         android:textColor="#d2d2ce"
         android:textSize="20dp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_below="@+id/gruppeKnap"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -83,12 +83,31 @@
         android:layout_height="wrap_content"
         android:text="Min Rute"
         android:id="@+id/button2"
-        android:layout_marginTop="23dp"
-        android:layout_below="@+id/button"
-        android:layout_centerHorizontal="true"
         android:background="@drawable/button_background"
         android:textColor="#d2d2ce"
         android:textSize="20dp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_below="@+id/qrbutton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Antal donationer"
+        android:id="@+id/textView31"
+        android:layout_below="@+id/textView13"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0"
+        android:id="@+id/textView32"
+        android:textSize="65dp"
+        android:layout_below="@+id/textView31"
+        android:layout_alignStart="@+id/textView12" />
 
 </RelativeLayout>
