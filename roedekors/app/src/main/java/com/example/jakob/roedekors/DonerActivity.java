@@ -23,6 +23,14 @@ public class DonerActivity extends MainActivity {
                 startActivity(myIntent);
             }
         });
+        Button maanedKnap = (Button) findViewById(R.id.maanedligbidrag);
+        maanedKnap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent(tmp, MaanedeligBetalingActivity.class);
+                startActivity(myIntent);
+            }
+        });
     }
 
 }
